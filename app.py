@@ -13,7 +13,6 @@ retail = pd.read_excel(r"C:\Users\Anish\Desktop\myenv\P52\Sample_data.xlsx")
 df2 = pd.read_csv(r"C:\Users\Anish\Desktop\myenv\P52\ol111.csv")
 
 st.title('Customer Likelihood Prediction Analysis')
-#st.write('@Pranav')
 nav = st.sidebar.radio('Pages',['Home','Prediction'])
 if nav == 'Home':
     st.header("Data Set Details:")
